@@ -1,0 +1,147 @@
+What is React?
+Ans- 1. JavaScript library created by Facebook.
+2. Also used by Netflix & Instagram.
+3. Used to create JS-driven dynamic web apps.
+4. In that regard, can be compared to Angular & Vue.
+
+What is Redux?
+Ans- 1. A layer on-top of React.
+2. Helps with state management of our app:
+   a) data in app.
+   b) UI state of the app.
+3. Learn this is the 2nd half of the playlist.
+
+
+- React Basics
+  - components, events, templates, props & forms
+
+- React Router
+  - routes, route parameters, redirects
+
+- Redux
+  - stores, actions & reducers.
+
+
+Components & Templates
+1. Components look like HTML templates (actually JSX).
+2. They can contain 'state' (data or UI state).
+3. They also can contain Javascript for functionality
+
+Ex: class App extends React.Component{
+    state = {
+    name: 'Anu',
+    age: 22
+}
+
+render(){
+ return{
+   <div className="app-content">
+   <h1>Hello, ninjas!</h1>
+   <p>My name is: { this.state.name} and I am {this.state.age}</p>
+   </div>
+  }
+}
+
+ 
+Component State
+
+-Javascript Object
+
+-Describes the current state of the component 
+ -data, UI-state
+
+-The state of a component can be updated over time
+ -a modal could close.
+ -the data we output could change.
+Ex: 1. Shopping Cart Components
+  {
+    items:[
+      {name: 'navy jumper',price:9.99},
+      {name: 'ninja mask' ,price:20.00},
+      {name: 'black cloak', price:15.00}
+     ]
+  }
+   
+   2. Popup Component
+  {
+    showPopup: true
+  }
+ {
+  showPopup: false
+ }
+
+
+4Oct(2018):
+
+CREATE REACT APP:
+
+A command line tool to create React apps:
+ 1. Development server.
+ 2. Use ES6 features which aren't normally supported
+ 3. Keep our code modular
+ 4. Use build tools to create optimized code.
+
+
+9-May 2020 --
+React Formik:
+What?
+Formik is a small library that helps you deal with forms in React.
+
+Why?
+a) Managing form data
+b) Form submission.
+c) Form validation and displaying error messages
+
+Formik helps you deal with forms in a scalable,performant and easy way.
+
+Course Structure:
+1. Build a simple form: 
+   a. Managing the form state
+   b. Handling form submission
+   c. Validation and error message
+
+2. useFormik Hook
+3. Manage the form state
+4. Handle form submission
+5. Form Validation
+6. Formik Components
+7. Few handy features
+8. Reusable components for input,text-area, select, radio buttons and checkboxes
+9. Build a user registration form.
+10. Wire up a UI Library.
+
+
+13 May 2020--
+FORMIK COMPONENTS:
+
+1. Formik : 
+a)Import Formik instead of useFormik at the top
+b) Wrap your entire form with Formik Tag or Component
+c) Pass the initialValues,validationSchema and onSubmit functions as 3 props in Formik Tag.
+
+2. Form : Form automatically linking onSubmit method to our form's submit event.
+
+3. Field : 
+Fields does 3 things:
+a) Hook ups the input to the top level formik component
+b) It uses the name attribute to match up with the formik state.
+c) By default field will rendered an input element which is used previously in form html element. 
+
+4. ErrorMessage
+
+
+JOURNEY SO FAR.....
+
+Simple form with 3 fields
+useFormik hook
+Managing form state,handling form submission and form validation
+initialValues object + formik.handleChanges
+onSubmit method + formik.handleSubmit
+Validate function
+validationSchema object
+formik.errors and formik.touched
+Formik components - Formik, Form,Field and ErrorMessage
+
+
+
+
