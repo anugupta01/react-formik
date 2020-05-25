@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/core": "^0.7.0",
+    "emotion-theming": "^10.0.27",
+    "formik": "^2.1.4",
+    "react": "next",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "0.0.0-d7382b6c4",
+    "react-native-unicorn-uikit": "0.0.18",
+    "react-scripts": "1.1.5",
+    "react-timepicker": "^2.0.2",
+    "yup": "^0.28.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-deck": "mdx-deck src/deck/deck.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}
