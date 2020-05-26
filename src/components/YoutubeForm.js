@@ -20,7 +20,7 @@ const initialValues={
 }
 const savedValues = {
     name: 'Anu',
-    email: 'anugupta02021996@example.com',
+    email: 'anugupta02@example.com',
     channel: 'melodius box',
     comments: 'Welcome to Ghaziabad',
     address: 'Uttar Pradesh,India',
@@ -125,11 +125,13 @@ function YoutubeForm(){
 
                 <div className='form-control'>
                     <label htmlFor='facebook'>Facebook profile</label>
+                     {/*Nested Object here is social.facebook*/}
                     <Field type='text' id='facebook' name='social.facebook' />
                 </div>
 
                 <div className='form-control'>
                     <label htmlFor='twitter'>Twitter profile</label>
+                       {/*Nested Object here is social.twitter*/}
                     <Field type='text' id='twitter' name='social.twitter' />
                 </div>
 
