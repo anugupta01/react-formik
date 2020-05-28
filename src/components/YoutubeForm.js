@@ -22,7 +22,7 @@ const savedValues = {
     name: 'Anu',
     email: 'anugupta02@example.com',
     channel: 'melodius box',
-    comments: 'Welcome to Ghaziabad',
+    comments: 'Welcome to India',
     address: 'India',
     social: {
         facebook: '',
