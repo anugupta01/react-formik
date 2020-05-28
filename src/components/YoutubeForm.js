@@ -23,7 +23,7 @@ const savedValues = {
     email: 'anugupta02@example.com',
     channel: 'melodius box',
     comments: 'Welcome to Ghaziabad',
-    address: 'Uttar Pradesh,India',
+    address: 'India',
     social: {
         facebook: '',
         twitter: ''
