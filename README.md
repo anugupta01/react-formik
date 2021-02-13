@@ -1,4 +1,4 @@
-# React-Formik App By ANU GUPTA ;)
+# React-Formik App By ANU GUPTA 😉
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
